@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function App() {
+export default function App() {
   const [randomNumber, setRandomNumber] = useState(null);
 
   const fetchRandomNumber = async () => {
@@ -50,5 +50,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

@@ -1,7 +1,10 @@
 html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
   margin: auto;
-  background: rgb(22,17,98);
-  background: linear-gradient(90deg, rgba(22,17,98,1) 0%, rgba(66,15,173,0.9766107126444328) 42%, rgba(0,123,255,1) 100%); 
+  background: rgb(27,24,82);
+  background: linear-gradient(90deg, rgba(27,24,82,1) 0%, rgba(18,40,113,1) 51%, rgba(28,53,145,1) 100%); 
   color: wheat;
   
 }
